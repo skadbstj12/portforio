@@ -1,0 +1,81 @@
+#section2 {
+    width: 100%;
+    height: 2100px;
+    background-color: #1f2635;
+
+    .textLine {
+        padding: 1vw;
+
+        div {
+            font-family: "SwisspoTrial-CondBlackTall";
+            color: #b7cbe3;
+            font-size: 20vw;
+            line-height: 0.8;
+            white-space: nowrap;
+
+            .l1 {
+                padding-left: 2.1vw;
+                padding-right: 2.1vw;
+            }
+
+            .l2 {
+                padding-left: 1.4vw;
+                padding-right: 1.4vw;
+            }
+
+            .l3 {
+                padding-left: 2.5vw;
+                padding-right: 2.5vw;
+            }
+        }
+
+        p {
+            color: #b7cbe3;
+            text-align: center;
+            font-family: "netmarble";
+            font-weight: 300;
+            margin-top: 20px;
+        }
+    }
+
+    .profile{
+        width: 100%;
+        height: 1000px;
+        opacity: 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+
+        .profile-img{
+                width: 400px;
+                height: 520px;
+                display: flex;
+                margin: 0 auto;
+                border-radius: 400px;
+                background-color: #fff;
+        }
+
+        .profile-name{
+            line-height: 0;
+            font-size: 7rem;
+            text-align: center;
+            color: #b7cbe3;
+        }
+
+        .profile-text{
+            font-family: "Grypen";
+            font-weight: normal;
+            font-size: 6rem;
+            text-align: center;
+            line-height: 1.2;
+            color: #b7cbe3;
+        }
+    }
+}
+
+
+
+
+
+
+

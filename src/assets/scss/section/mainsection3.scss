@@ -1,0 +1,397 @@
+#section3 {
+    background-color: #1f2635;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+    height: 6500px;
+
+    .WORK{
+        font-family: "SwisspoTrial-CondBlackTall";
+        text-align: center;
+        font-size: 50vw;
+        color: #b7cbe3;
+        
+    }
+
+    .img-title{
+        width: 98vw;
+        height: 250px;
+        padding-top: 5%;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        flex-direction: column;
+
+        span{
+            text-align: center;
+        }
+    }
+}
+
+
+
+.section4{
+    position: relative;
+    width: 98vw;
+    height: 100vh;
+    perspective: 1000px;
+    perspective-origin: 50% 0;
+    transform-origin: 50% 0;
+    background-color: #974141;
+    border-radius: 5px;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 10vh;
+    overflow: hidden;
+
+}
+
+.section4 .section-img {
+    width: 59%;
+    height: 66%;
+    background-image: url(../../img/webtoon.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: relative;
+    transition: transform 1s ease;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.section4 .section-img:hover{
+    transform: scale(1.1);
+}
+
+
+.section4 .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 27.1% 50% 23.1% 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgba(0, 0, 0, 0.603); 
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+
+.section4 .overlay a {
+    color: rgb(255, 255, 255);
+    margin: 0 10px;
+    text-decoration: none;
+    font-size: 1.3em;
+}
+
+.section4 .overlay:hover  {
+    opacity: 1;
+}
+
+.section4 a{
+    text-align: center;
+    padding: 10px 20px 10px 20px;
+    border: 2px solid #E1E1E1;
+    border-radius: 5dvb;
+    background-color: #000000;
+}
+
+.section4 a:hover{
+    text-decoration: underline;
+}
+
+.section4 .img-title h2{
+    font-size: 8vw;
+    font-family: "SwisspoTrial-CondBlackTall";
+    color: #101132;
+    line-height: 1;
+}
+
+.section4 .img-title p{
+    font-family: "netmarble";
+    font-size: 1vw;
+    color: #101132;
+}
+
+.section4 .img-title a:hover{
+    color: #101132;
+    text-decoration: underline;
+}
+
+
+/* // class section5 */
+
+.section5{
+    position: relative;
+    width: 98vw;
+    height: 100vh;
+    perspective-origin: 50% 0;
+    transform-origin: 50% 0;
+    background-color: #101132;
+    border-radius: 5px;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 10vh;
+    overflow: hidden;
+}
+.section5 .img-title h2{
+    font-size: 8vw;
+    font-family: "SwisspoTrial-CondBlackTall";
+    color: #974141;
+    line-height: 1;
+}
+
+.section5 .img-title span{
+    font-size: 1vw;
+    color: #974141;
+}
+
+.section5 .section-img{
+    width: 59%;
+    height: 66%;
+    background-image: url(../../img/reactMovie.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+    cursor: pointer;
+    transition: transform 1s ease;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.section5 .section-img:hover{
+    transform: scale(1.1);
+}
+.section5 .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 27.5% 50% 27.5% 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgba(0, 0, 0, 0.603); 
+    opacity: 0;
+    transition: opacity 0.3s ease; 
+}
+
+.section5 .overlay a {
+    color: rgb(255, 255, 255);
+    margin: 0 10px;
+    text-decoration: none;
+    font-size: 1.3em;
+}
+
+.section5 .overlay:hover  {
+    opacity: 1;
+}
+
+.section5 a{
+    text-align: center;
+    padding: 10px 20px 10px 20px;
+    border: 2px solid #E1E1E1;
+    border-radius: 5dvb;
+    background-color: #000000;
+}
+
+.section5 a:hover{
+    text-decoration: underline;
+}
+
+/* // class section6 */
+
+.section6{
+    position: relative;
+    width: 98vw;
+    height: 100vh;
+    perspective-origin: 50% 0;
+    transform-origin: 50% 0;
+    background-color: #000000;
+    border-radius: 5px;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 10vh;
+    overflow: hidden;
+}
+
+.section6 .img-title h2{
+    font-size: 8vw;
+    font-family: "SwisspoTrial-CondBlackTall";
+    color: #C40000;
+    line-height: 1;
+}
+
+.section6 .img-title span{
+    font-size: 1vw;
+    color: #C40000;
+}
+
+.section6 .section-img{
+    width: 59%;
+    height: 66%;
+    background-image: url(../../img/reactMusic.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+    cursor: pointer;
+    transition: transform 1s ease;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.section6 .section-img:hover{
+    transform: scale(1.1);
+}
+
+.section6 .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 27.5% 50% 27.5% 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgba(0, 0, 0, 0.603);
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+
+.section6 .overlay a {
+    color: rgb(255, 255, 255);
+    margin: 0 10px;
+    text-decoration: none;
+    font-size: 1.3em;
+}
+
+.section6 .overlay:hover  {
+    opacity: 1;
+}
+
+.section6 a{
+    text-align: center;
+    padding: 10px 20px 10px 20px;
+    border: 2px solid #E1E1E1;
+    border-radius: 5dvb;
+    background-color: #000000;
+}
+
+.section6 a:hover{
+    text-decoration: underline;
+}
+
+
+/* class section7 */
+
+.section7{
+    position: relative;
+    width: 98vw;
+    height: 100vh;
+    perspective-origin: 50% 0;
+    transform-origin: 50% 0;
+    background-color: #E1E1E1;
+    border-radius: 5px;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 10vh;
+    overflow: hidden;
+
+}
+
+.section7 .img-title h2{
+    font-size: 8vw;
+    font-family: "SwisspoTrial-CondBlackTall";
+    color: #974141;
+    line-height: 1;
+}
+
+.section7 .img-title span{
+    font-size: 1vw;
+    color: #974141;
+}
+
+
+.section7 .section-img{
+    width: 59%;
+    height: 66%;
+    background-image: url(../../img/ready.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+    cursor: pointer;
+    transition: transform 1s ease;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.section7 .section-img:hover{
+    transform: scale(1.1);
+}
+
+.section7 .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 27.5% 50% 27.5% 50%;   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgba(0, 0, 0, 0.603); /* 반투명 배경 */
+    opacity: 0; /* 기본적으로 숨김 */
+    transition: opacity 0.3s ease; /* 트랜지션 효과 추가 */
+}
+
+.section7 .overlay a {
+    color: rgb(255, 255, 255);
+    margin: 0 10px;
+    text-decoration: none;
+    font-size: 1.3em;
+}
+
+.section7 .overlay:hover  {
+    opacity: 1;
+}
+
+.section7 a{
+    text-align: center;
+    padding: 10px 20px 10px 20px;
+    border: 2px solid #E1E1E1;
+    border-radius: 5dvb;
+    background-color: #000000;
+}
+
+.section7 a:hover{
+    text-decoration: underline;
+}
+
+
+
+

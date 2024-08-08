@@ -1,0 +1,79 @@
+#header {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    color: #b7cbe3;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.4rem 1rem;
+    z-index: 10;
+
+    h1 {
+        font-family: "SwisspoTrial-CondBlackTall";
+        font-size: 60px;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+        line-height: 0.8;
+
+            span {
+
+            display: block;
+            font-family: "Poppins";
+            letter-spacing: 5.2px;
+            text-align: left;
+            justify-content: left;
+            font-size: 22px;
+            font-weight: 500;
+        }
+    }
+
+    nav {
+        font-family: "SwisspoTrial-CondBlackTall";
+        font-size: 60px;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+        line-height: 0.8;
+        text-align: right;
+
+        span {
+            display: block;
+            font-family: "Poppins";
+            letter-spacing: 4px;
+            font-size: 24px;
+            font-weight: 400;
+            text-align: right;
+        }
+    }
+}
+
+
+@media (max-width: 800px) {
+   #header{
+    h1 {
+        font-size: 40px;
+        letter-spacing: 1px;
+        line-height: 0.8;
+
+        span {
+            letter-spacing: 3.7px;
+            font-size: 14px;
+            font-weight: 300;
+        }
+    }
+
+
+    nav {
+        font-size: 40px;
+        letter-spacing: 1px;
+        line-height: 0.8;
+
+        span {
+            letter-spacing: 3.7px;
+            font-size: 14px;
+            font-weight: 300;
+        }
+    }
+   }
+}

@@ -1,0 +1,17 @@
+@charset "UTF-8";
+
+/* 기본 설정 */
+@import "setting/fonts.scss";
+@import "setting/reset.scss";
+@import "setting/vars.scss";
+@import "setting/common.scss";
+
+/* 섹션 설정 */
+@import "section/header.scss";
+@import "section/footer.scss";
+@import "section/mainsection1.scss";
+@import "section/mainsection2.scss";
+@import "section/mainsection3.scss";
+@import "section/mainsection4.scss";
+@import "section/mainsection5.scss";
+@import "section/mainsection6.scss";

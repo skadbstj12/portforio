@@ -1,0 +1,108 @@
+
+#section7{
+    width: 100%;
+    height: 97vh;
+    background-color: #1f2635;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+#section7 h1{
+    text-align: center;
+    font-size: 23.3vw;
+    font-family: "SwisspoTrial-CondBlackTall";
+    color: #b7cbe3;
+    line-height: 1;
+}
+#section7 h4{
+    font-size: 5vw;
+    text-align: center;
+    line-height: 0;
+    font-family: "SwisspoTrial-CondBlackTall";
+    color: #b7cbe3;
+}
+#section7 span{
+    color: #b7cbe3;
+    font-size: 6vw;
+    line-height: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-family: "Grypen";
+}
+
+.infor_box {
+    color: #1f2635;
+    background-color: #b7cbe3;
+    padding: 1vw 1vw;
+    width: 100%;
+    border-radius: 0.3vw;
+    font-family: "SwisspoTrial-CondBlackTall";
+    margin-left: 20px;
+    margin-top: 80px;
+    margin-bottom: 20px;
+}
+
+.infor_box .infor_title{
+    color: #1f2635;
+    display: flex;
+    justify-content: space-between;
+}
+
+.infor_box .infor_title h5{
+    font-size: 2.8vw;
+}
+.infor_box .infor_title div{
+    font-size: 0.8vw;
+    font-family: "GmarketSans";
+    font-weight: 800;
+    display: flex;
+    align-items: center;
+}
+
+.infor_box p{
+    font-family: "GmarketSans";
+    font-size: 0.8vw;
+}
+
+.infor_btn{
+    display: flex;
+    justify-content: space-between;
+}
+
+.infor_btn p{
+    margin-top: 20px;
+    font-size: 1.8vw;
+    font-family: "SwisspoTrial-CondBlackTall";
+}
+.infor_btn a{
+    font-size: 2vw;
+    margin-top: 20px;
+}
+
+.infor_btn a:hover{
+    text-decoration: underline;
+}
+
+#section7 .last-right{
+    width: 600px;
+    height: 350px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    border-radius: 20px;
+}
+
+.last-right img{
+    width: 280px;
+    height: 100%;
+    background-color: #fff;
+    border-radius: 49%;
+
+}
+
+.last-footer{
+    display: flex;
+    justify-content: space-between;
+}
