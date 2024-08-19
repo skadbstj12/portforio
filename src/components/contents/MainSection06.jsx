@@ -1,5 +1,4 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
 import profileImage from '../../assets/img/yoonseo3.jpg';
 
 const Section7 = () => {

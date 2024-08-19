@@ -10,14 +10,13 @@ import gsap from 'gsap';
 import { ScrollTrigger } from 'gsap/all';
 import Lenis from 'lenis';
 import SplitType from 'split-type';
+import Loading from '../components/contents/Loading';
 
 gsap.registerPlugin(ScrollTrigger);
 
 const Home = () => {
   const firstBoxRef = useRef(null);
   const secondBoxRef = useRef(null);
-  const thirdBoxRef = useRef(null);
-  const fourthBoxRef = useRef(null);
   const workElementRef = useRef(null);
 
 
@@ -133,31 +132,21 @@ const Home = () => {
     }
 
     requestAnimationFrame(raf);
-
-    const targets = gsap.utils.toArray(".split");
-
-    targets.forEach((target) => {
-      let SplitClient = new SplitType(target, {
-        type: "lines, words, chars",
-      });
-      let lines = SplitClient.lines;
-      let words = SplitClient.words;
-      let chars = SplitClient.chars;
-    });
-
   }, []);
 
   return (
     <>
-      <Main />
+      {/* <Loading/> */}
+    
+<div id="wrap">
+<Main />
       <MainSection01 />
       <MainSection02 />
       <MainSection03 />
       <MainSection04 />
       <MainSection05 />
       <MainSection06 />
-      
-      <div className="WORK" ></div>
+</div>
     </>
   );
 };
